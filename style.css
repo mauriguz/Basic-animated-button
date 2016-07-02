@@ -1,0 +1,34 @@
+/* Just some basic style */
+body {
+	background-color: #DCDCDC;
+	text-align: center;
+	margin: 20em auto;
+	font-family: sans-serif;
+}
+
+/* Lets start working with the button */
+#one {
+	width: 200px;
+	height: 60px;
+  display: inline-block;
+  border: none;
+  border-bottom: 5px solid #2445B3;
+  margin-top: 0;
+  text-decoration: none;
+  background-color: #5674D7;
+  color: #fff;
+  cursor: pointer;
+}
+
+#one:hover {
+  background-color: #587EFA;
+}
+
+#one:active {
+  margin-top: 3px;
+  border-bottom: 0;
+}
+
+#one:focus {
+  outline: none;
+}
